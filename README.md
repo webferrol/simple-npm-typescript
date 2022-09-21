@@ -3,7 +3,8 @@
 ## Tabla de contenidos
 
 - [Arranque del proyecto](#npm-init)
-- [Instalación de TypeScript](#instalacion-de-typescript)
+- [Instalación de TypeScript](#instalación-de-typescript)
+- [Configuración mínima de tsconfig.json](#configuración-de-tsconfig)
 
 ## npm init
 
@@ -20,3 +21,18 @@ Para la instalación de typescript utilizar el siguiente comando. El _flag_ -D o
 ```sh
 npm i -D typescript
 ```
+
+## Configuración de tsconfig
+
+Crearemos un fichero _tsconfig.json_ y crearemos una propiedad denominada "compilerOptions". Indicaremos la salida de _transpilación_ de los ficheros con extensión __ts__. El comando genérico es *tsc*
+
+```json
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES5"
+    }
+}
+```
+
+En el fichero _package.json_ podemos realizar en su propieda _scripts_ un automatismo para esta _compilación_.

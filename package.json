@@ -4,7 +4,7 @@
   "description": "Proyecto simple realizado con node y TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build"
   },
   "keywords": [
     "npm",
