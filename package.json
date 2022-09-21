@@ -1,0 +1,19 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "description": "Proyecto simple realizado con node y TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "TypeScript"
+  ],
+  "author": "Xurxo González",
+  "license": "ISC (Internet Systems Consortium)",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
